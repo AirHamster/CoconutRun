@@ -1,4 +1,4 @@
-# Install script for directory: /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/external/freetype2
+# Install script for directory: /home/ilia.zarubin/workspace/coconut_run/cocos2d/external/freetype2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

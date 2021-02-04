@@ -1,4 +1,4 @@
-# Install script for directory: /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/external/android-specific/cpufeatures
+# Install script for directory: /home/ilia.zarubin/workspace/coconut_run/cocos2d/external/android-specific/cpufeatures
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

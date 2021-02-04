@@ -376,7 +376,7 @@ rule CXX_STATIC_LIBRARY_LINKER__cpp_android_spec
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /home/ilia.zarubin/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/ilia.zarubin/workspace/coconut_run/CoconutRun -B/home/ilia.zarubin/workspace/coconut_run/CoconutRun/proj.android/app/.cxx/cmake/debug/x86
+  command = /home/ilia.zarubin/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H/home/ilia.zarubin/workspace/coconut_run -B/home/ilia.zarubin/workspace/coconut_run/proj.android/app/.cxx/cmake/debug/x86
   description = Re-running CMake...
   generator = 1
 

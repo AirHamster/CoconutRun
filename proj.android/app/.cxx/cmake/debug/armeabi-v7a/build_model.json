@@ -5,9 +5,9 @@
     "environmentVariables": []
   },
   "cmake": {
-    "cmakeArtifactsBaseFolder": "/home/ilia.zarubin/workspace/coconut_run/CoconutRun/proj.android/app/.cxx/cmake/debug/armeabi-v7a",
-    "cmakeServerLogFile": "/home/ilia.zarubin/workspace/coconut_run/CoconutRun/proj.android/app/.cxx/cmake/debug/armeabi-v7a/cmake_server_log.txt",
-    "cmakeWrappingBaseFolder": "/home/ilia.zarubin/workspace/coconut_run/CoconutRun/proj.android/app/.cxx/cxx/debug/armeabi-v7a",
+    "cmakeArtifactsBaseFolder": "/home/ilia.zarubin/workspace/coconut_run/proj.android/app/.cxx/cmake/debug/armeabi-v7a",
+    "cmakeServerLogFile": "/home/ilia.zarubin/workspace/coconut_run/proj.android/app/.cxx/cmake/debug/armeabi-v7a/cmake_server_log.txt",
+    "cmakeWrappingBaseFolder": "/home/ilia.zarubin/workspace/coconut_run/proj.android/app/.cxx/cxx/debug/armeabi-v7a",
     "effectiveConfiguration": {
       "name": "traditional-android-studio-cmake-environment",
       "description": "Composite reified CMakeSettings configuration",
@@ -15,7 +15,7 @@
       "inheritEnvironments": [
         "ndk"
       ],
-      "buildRoot": "/home/ilia.zarubin/workspace/coconut_run/CoconutRun/proj.android/app/.cxx/cmake/debug/armeabi-v7a",
+      "buildRoot": "/home/ilia.zarubin/workspace/coconut_run/proj.android/app/.cxx/cmake/debug/armeabi-v7a",
       "cmakeToolchain": "/home/ilia.zarubin/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
       "cmakeExecutable": "/home/ilia.zarubin/Android/Sdk/cmake/3.10.2.4988404/bin/cmake",
       "variables": [
@@ -25,7 +25,7 @@
         },
         {
           "name": "CMAKE_FIND_ROOT_PATH",
-          "value": "/home/ilia.zarubin/workspace/coconut_run/CoconutRun/proj.android/app/.cxx/cmake/debug/prefab/armeabi-v7a/prefab"
+          "value": "/home/ilia.zarubin/workspace/coconut_run/proj.android/app/.cxx/cmake/debug/prefab/armeabi-v7a/prefab"
         },
         {
           "name": "CMAKE_BUILD_TYPE",
@@ -61,7 +61,7 @@
         },
         {
           "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
-          "value": "/home/ilia.zarubin/workspace/coconut_run/CoconutRun/proj.android/app/build/intermediates/cmake/debug/obj/armeabi-v7a"
+          "value": "/home/ilia.zarubin/workspace/coconut_run/proj.android/app/build/intermediates/cmake/debug/obj/armeabi-v7a"
         },
         {
           "name": "CMAKE_MAKE_PROGRAM",
@@ -90,14 +90,14 @@
       ]
     }
   },
-  "cxxBuildFolder": "/home/ilia.zarubin/workspace/coconut_run/CoconutRun/proj.android/app/.cxx/cmake/debug/armeabi-v7a",
+  "cxxBuildFolder": "/home/ilia.zarubin/workspace/coconut_run/proj.android/app/.cxx/cmake/debug/armeabi-v7a",
   "info": {
     "abi": "ARMEABI_V7A",
     "bitness": 32,
     "deprecated": false,
     "default": true
   },
-  "originalCxxBuildFolder": "/home/ilia.zarubin/workspace/coconut_run/CoconutRun/proj.android/app/.cxx/cmake/debug/armeabi-v7a",
+  "originalCxxBuildFolder": "/home/ilia.zarubin/workspace/coconut_run/proj.android/app/.cxx/cmake/debug/armeabi-v7a",
   "variant": {
     "buildSystemArgumentList": [
       "-DCMAKE_FIND_ROOT_PATH\u003d",
@@ -123,12 +123,12 @@
         "ninjaExe": "/home/ilia.zarubin/Android/Sdk/cmake/3.10.2.4988404/bin/ninja"
       },
       "cmakeToolchainFile": "/home/ilia.zarubin/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
-      "cxxFolder": "/home/ilia.zarubin/workspace/coconut_run/CoconutRun/proj.android/app/.cxx",
+      "cxxFolder": "/home/ilia.zarubin/workspace/coconut_run/proj.android/app/.cxx",
       "gradleModulePathName": ":CoconutRun",
-      "intermediatesFolder": "/home/ilia.zarubin/workspace/coconut_run/CoconutRun/proj.android/app/build/intermediates",
-      "makeFile": "/home/ilia.zarubin/workspace/coconut_run/CoconutRun/CMakeLists.txt",
-      "moduleBuildFile": "/home/ilia.zarubin/workspace/coconut_run/CoconutRun/proj.android/app/build.gradle",
-      "moduleRootFolder": "/home/ilia.zarubin/workspace/coconut_run/CoconutRun/proj.android/app",
+      "intermediatesFolder": "/home/ilia.zarubin/workspace/coconut_run/proj.android/app/build/intermediates",
+      "makeFile": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+      "moduleBuildFile": "/home/ilia.zarubin/workspace/coconut_run/proj.android/app/build.gradle",
+      "moduleRootFolder": "/home/ilia.zarubin/workspace/coconut_run/proj.android/app",
       "ndkDefaultAbiList": [
         "ARMEABI_V7A",
         "ARM64_V8A",
@@ -192,12 +192,12 @@
       "ndkDefaultStl": "LIBCXX_STATIC",
       "ndkVersion": "21.1.6352462",
       "project": {
-        "compilerSettingsCacheFolder": "/home/ilia.zarubin/workspace/coconut_run/CoconutRun/proj.android/.cxx",
-        "cxxFolder": "/home/ilia.zarubin/workspace/coconut_run/CoconutRun/proj.android/.cxx",
+        "compilerSettingsCacheFolder": "/home/ilia.zarubin/workspace/coconut_run/proj.android/.cxx",
+        "cxxFolder": "/home/ilia.zarubin/workspace/coconut_run/proj.android/.cxx",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isNativeCompilerSettingsCacheEnabled": false,
-        "rootBuildGradleFolder": "/home/ilia.zarubin/workspace/coconut_run/CoconutRun/proj.android",
+        "rootBuildGradleFolder": "/home/ilia.zarubin/workspace/coconut_run/proj.android",
         "sdkFolder": "/home/ilia.zarubin/Android/Sdk",
         "isPrefabEnabled": false
       },
@@ -214,15 +214,15 @@
         "SYSTEM": {}
       }
     },
-    "objFolder": "/home/ilia.zarubin/workspace/coconut_run/CoconutRun/proj.android/app/build/intermediates/cmake/debug/obj",
+    "objFolder": "/home/ilia.zarubin/workspace/coconut_run/proj.android/app/build/intermediates/cmake/debug/obj",
     "variantName": "debug",
     "validAbiList": [
       "ARMEABI_V7A",
       "ARM64_V8A",
       "X86"
     ],
-    "prefabDirectory": "/home/ilia.zarubin/workspace/coconut_run/CoconutRun/proj.android/app/.cxx/cmake/debug/prefab",
+    "prefabDirectory": "/home/ilia.zarubin/workspace/coconut_run/proj.android/app/.cxx/cmake/debug/prefab",
     "prefabPackageDirectoryList": []
   },
-  "prefabFolder": "/home/ilia.zarubin/workspace/coconut_run/CoconutRun/proj.android/app/.cxx/cmake/debug/prefab/armeabi-v7a"
+  "prefabFolder": "/home/ilia.zarubin/workspace/coconut_run/proj.android/app/.cxx/cmake/debug/prefab/armeabi-v7a"
 }

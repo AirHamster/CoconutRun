@@ -12,11 +12,11 @@ Detecting CXX compile features
 Detecting CXX compile features - done
 using toolchain file:/home/ilia.zarubin/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake
 PROJECT_NAME:CoconutRun
-PROJECT_SOURCE_DIR:/home/ilia.zarubin/workspace/coconut_run/CoconutRun
-COCOS2DX_ROOT_PATH:/home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d
-CMAKE_MODULE_PATH:/home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/cmake/Modules/
-PROJECT_BINARY_DIR:/home/ilia.zarubin/workspace/coconut_run/CoconutRun/proj.android/app/.cxx/cmake/debug/x86
-ENGINE_BINARY_PATH:/home/ilia.zarubin/workspace/coconut_run/CoconutRun/proj.android/app/.cxx/cmake/debug/x86/engine
+PROJECT_SOURCE_DIR:/home/ilia.zarubin/workspace/coconut_run
+COCOS2DX_ROOT_PATH:/home/ilia.zarubin/workspace/coconut_run/cocos2d
+CMAKE_MODULE_PATH:/home/ilia.zarubin/workspace/coconut_run/cocos2d/cmake/Modules/
+PROJECT_BINARY_DIR:/home/ilia.zarubin/workspace/coconut_run/proj.android/app/.cxx/cmake/debug/x86
+ENGINE_BINARY_PATH:/home/ilia.zarubin/workspace/coconut_run/proj.android/app/.cxx/cmake/debug/x86/engine
 PYTHON_PATH:/usr/bin/python2
 COCOS_COMMAND_PATH:/home/ilia.zarubin/workspace/android/coconut_run/cocos2d-x/tools/cocos2d-console/bin/cocos
 HOST_SYSTEM:Linux

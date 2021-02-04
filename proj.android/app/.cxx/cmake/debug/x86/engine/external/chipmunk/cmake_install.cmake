@@ -1,4 +1,4 @@
-# Install script for directory: /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/external/chipmunk
+# Install script for directory: /home/ilia.zarubin/workspace/coconut_run/cocos2d/external/chipmunk
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

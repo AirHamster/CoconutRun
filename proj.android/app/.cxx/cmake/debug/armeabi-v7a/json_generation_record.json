@@ -2,37 +2,829 @@
   {
     "level": "INFO",
     "message": "Start JSON generation. Platform version: 16 min SDK version: armeabi-v7a",
-    "file": "/home/ilia.zarubin/workspace/coconut_run/CoconutRun/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
     "tag": "debug|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "No CMake version was specified in build.gradle. Using default version 3.10.2.",
-    "file": "/home/ilia.zarubin/workspace/coconut_run/CoconutRun/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
     "tag": "debug|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "Trying to locate CMake in local SDK repository.",
-    "file": "/home/ilia.zarubin/workspace/coconut_run/CoconutRun/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
     "tag": "debug|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "- CMake found in SDK at \u0027/home/ilia.zarubin/Android/Sdk/cmake/3.10.2.4988404\u0027 had version \u00273.10.2\u0027",
-    "file": "/home/ilia.zarubin/workspace/coconut_run/CoconutRun/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
     "tag": "debug|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "JSON \u0027/home/ilia.zarubin/workspace/coconut_run/CoconutRun/proj.android/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build.json\u0027 was up-to-date",
-    "file": "/home/ilia.zarubin/workspace/coconut_run/CoconutRun/CMakeLists.txt",
+    "message": "rebuilding JSON /home/ilia.zarubin/workspace/coconut_run/proj.android/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build.json due to:",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
     "tag": "debug|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "JSON generation completed without problems",
-    "file": "/home/ilia.zarubin/workspace/coconut_run/CoconutRun/CMakeLists.txt",
+    "message": "- command changed from previous, will remove stale json folder",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "- a dependent build file changed",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/cmake/Modules/CocosBuildSet.cmake",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/cmake/Modules/CocosBuildHelpers.cmake",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/cmake/Modules/CocosConfigDefine.cmake",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/cmake/Modules/CocosConfigDepend.cmake",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/cocos/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/cocos/2d/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/cocos/3d/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/cocos/platform/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/cocos/physics/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/cocos/physics3d/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/cocos/math/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/cocos/navmesh/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/cocos/renderer/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/cocos/base/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/cocos/ui/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/cocos/network/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/cocos/audio/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/cocos/editor-support/cocostudio/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/extensions/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/external/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/external/Box2D/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/external/cmake/CocosExternalConfig.cmake",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/external/chipmunk/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/external/freetype2/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/external/recast/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/external/bullet/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/external/jpeg/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/external/openssl/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/external/uv/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/external/webp/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/external/websockets/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/external/tinyxml2/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/external/xxhash/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/external/xxtea/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/external/clipper/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/external/edtaa3func/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/external/ConvertUTF/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/external/poly2tri/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/external/md5/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/external/curl/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/external/png/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/external/android-specific/cpufeatures/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/external/android-specific/pvmp3dec/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/external/android-specific/tremolo/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/external/zlib/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/external/unzip/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/ilia.zarubin/workspace/coconut_run/CoconutRun/cocos2d/cocos/platform/android/CMakeLists.txt",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "removing stale contents from \u0027/home/ilia.zarubin/workspace/coconut_run/proj.android/app/.cxx/cmake/debug/armeabi-v7a\u0027",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "created folder \u0027/home/ilia.zarubin/workspace/coconut_run/proj.android/app/.cxx/cmake/debug/armeabi-v7a\u0027",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "executing cmake Executable : /home/ilia.zarubin/Android/Sdk/cmake/3.10.2.4988404/bin/cmake\narguments : \n-H/home/ilia.zarubin/workspace/coconut_run\n-DCMAKE_CXX_FLAGS\u003d-frtti -fexceptions -fsigned-char\n-DCMAKE_FIND_ROOT_PATH\u003d/home/ilia.zarubin/workspace/coconut_run/proj.android/app/.cxx/cmake/debug/prefab/armeabi-v7a/prefab\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DCMAKE_TOOLCHAIN_FILE\u003d/home/ilia.zarubin/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake\n-DANDROID_ABI\u003darmeabi-v7a\n-DANDROID_NDK\u003d/home/ilia.zarubin/Android/Sdk/ndk/21.1.6352462\n-DANDROID_PLATFORM\u003dandroid-16\n-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi-v7a\n-DCMAKE_ANDROID_NDK\u003d/home/ilia.zarubin/Android/Sdk/ndk/21.1.6352462\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/ilia.zarubin/workspace/coconut_run/proj.android/app/build/intermediates/cmake/debug/obj/armeabi-v7a\n-DCMAKE_MAKE_PROGRAM\u003d/home/ilia.zarubin/Android/Sdk/cmake/3.10.2.4988404/bin/ninja\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d16\n-DANDROID_STL\u003dc++_static\n-DANDROID_TOOLCHAIN\u003dclang\n-DANDROID_ARM_NEON\u003dTRUE\n-B/home/ilia.zarubin/workspace/coconut_run/proj.android/app/.cxx/cmake/debug/armeabi-v7a\n-GNinja\njvmArgs : \n\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "[\u003d\u003d \"CMake Server\" \u003d\u003d[\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"supportedProtocolVersions\":[{\"isExperimental\":true,\"major\":1,\"minor\":1}],\"type\":\"hello\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "]\u003d\u003d \"CMake Server\" \u003d\u003d]\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"handshake\",\n  \"cookie\": \"gradle-cmake-cookie\",\n  \"protocolVersion\": {\n    \"isExperimental\": true,\n    \"major\": 1,\n    \"minor\": 1\n  },\n  \"sourceDirectory\": \"/home/ilia.zarubin/workspace/coconut_run\",\n  \"buildDirectory\": \"/home/ilia.zarubin/workspace/coconut_run/proj.android/app/.cxx/cmake/debug/armeabi-v7a\",\n  \"generator\": \"Ninja\"\n}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"gradle-cmake-cookie\",\"inReplyTo\":\"handshake\",\"type\":\"reply\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"configure\",\n  \"cacheArguments\": [\n    \"\",\n    \"-DCMAKE_CXX_FLAGS\\u003d-frtti -fexceptions -fsigned-char\",\n    \"-DCMAKE_FIND_ROOT_PATH\\u003d/home/ilia.zarubin/workspace/coconut_run/proj.android/app/.cxx/cmake/debug/prefab/armeabi-v7a/prefab\",\n    \"-DCMAKE_BUILD_TYPE\\u003dDebug\",\n    \"-DCMAKE_TOOLCHAIN_FILE\\u003d/home/ilia.zarubin/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake\",\n    \"-DANDROID_ABI\\u003darmeabi-v7a\",\n    \"-DANDROID_NDK\\u003d/home/ilia.zarubin/Android/Sdk/ndk/21.1.6352462\",\n    \"-DANDROID_PLATFORM\\u003dandroid-16\",\n    \"-DCMAKE_ANDROID_ARCH_ABI\\u003darmeabi-v7a\",\n    \"-DCMAKE_ANDROID_NDK\\u003d/home/ilia.zarubin/Android/Sdk/ndk/21.1.6352462\",\n    \"-DCMAKE_EXPORT_COMPILE_COMMANDS\\u003dON\",\n    \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\\u003d/home/ilia.zarubin/workspace/coconut_run/proj.android/app/build/intermediates/cmake/debug/obj/armeabi-v7a\",\n    \"-DCMAKE_MAKE_PROGRAM\\u003d/home/ilia.zarubin/Android/Sdk/cmake/3.10.2.4988404/bin/ninja\",\n    \"-DCMAKE_SYSTEM_NAME\\u003dAndroid\",\n    \"-DCMAKE_SYSTEM_VERSION\\u003d16\",\n    \"-DANDROID_STL\\u003dc++_static\",\n    \"-DANDROID_TOOLCHAIN\\u003dclang\",\n    \"-DANDROID_ARM_NEON\\u003dTRUE\"\n  ]\n}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: /home/ilia.zarubin/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang\",\"type\":\"message\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working C compiler: /home/ilia.zarubin/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":33,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: /home/ilia.zarubin/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works\",\"type\":\"message\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working C compiler: /home/ilia.zarubin/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info\",\"type\":\"message\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compiler ABI info",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":65,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info - done\",\"type\":\"message\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compiler ABI info - done",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features\",\"type\":\"message\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compile features",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":96,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":126,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":155,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features - done\",\"type\":\"message\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compile features - done",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: /home/ilia.zarubin/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++\",\"type\":\"message\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working CXX compiler: /home/ilia.zarubin/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":184,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: /home/ilia.zarubin/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works\",\"type\":\"message\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working CXX compiler: /home/ilia.zarubin/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info\",\"type\":\"message\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compiler ABI info",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":211,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info - done\",\"type\":\"message\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compiler ABI info - done",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features\",\"type\":\"message\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compile features",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":237,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":262,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":287,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":311,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features - done\",\"type\":\"message\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compile features - done",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"using toolchain file:/home/ilia.zarubin/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake\",\"type\":\"message\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "using toolchain file:/home/ilia.zarubin/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"PROJECT_NAME:CoconutRun\",\"type\":\"message\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "PROJECT_NAME:CoconutRun",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"PROJECT_SOURCE_DIR:/home/ilia.zarubin/workspace/coconut_run\",\"type\":\"message\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "PROJECT_SOURCE_DIR:/home/ilia.zarubin/workspace/coconut_run",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"COCOS2DX_ROOT_PATH:/home/ilia.zarubin/workspace/coconut_run/cocos2d\",\"type\":\"message\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "COCOS2DX_ROOT_PATH:/home/ilia.zarubin/workspace/coconut_run/cocos2d",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMAKE_MODULE_PATH:/home/ilia.zarubin/workspace/coconut_run/cocos2d/cmake/Modules/\",\"type\":\"message\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "CMAKE_MODULE_PATH:/home/ilia.zarubin/workspace/coconut_run/cocos2d/cmake/Modules/",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"PROJECT_BINARY_DIR:/home/ilia.zarubin/workspace/coconut_run/proj.android/app/.cxx/cmake/debug/armeabi-v7a\",\"type\":\"message\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "PROJECT_BINARY_DIR:/home/ilia.zarubin/workspace/coconut_run/proj.android/app/.cxx/cmake/debug/armeabi-v7a",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"ENGINE_BINARY_PATH:/home/ilia.zarubin/workspace/coconut_run/proj.android/app/.cxx/cmake/debug/armeabi-v7a/engine\",\"type\":\"message\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "ENGINE_BINARY_PATH:/home/ilia.zarubin/workspace/coconut_run/proj.android/app/.cxx/cmake/debug/armeabi-v7a/engine",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"PYTHON_PATH:/usr/bin/python2\",\"type\":\"message\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "PYTHON_PATH:/usr/bin/python2",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"COCOS_COMMAND_PATH:/home/ilia.zarubin/workspace/android/coconut_run/cocos2d-x/tools/cocos2d-console/bin/cocos\",\"type\":\"message\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "COCOS_COMMAND_PATH:/home/ilia.zarubin/workspace/android/coconut_run/cocos2d-x/tools/cocos2d-console/bin/cocos",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"HOST_SYSTEM:Linux\",\"type\":\"message\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "HOST_SYSTEM:Linux",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMAKE_GENERATOR: Ninja\",\"type\":\"message\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "CMAKE_GENERATOR: Ninja",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"COCOS2DX_LUAJIT_ROOT:/home/ilia.zarubin/workspace/android/coconut_run/cocos2d-x/tools/cocos2d-console/bin/../plugins/plugin_luacompile/bin\",\"type\":\"message\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "COCOS2DX_LUAJIT_ROOT:/home/ilia.zarubin/workspace/android/coconut_run/cocos2d-x/tools/cocos2d-console/bin/../plugins/plugin_luacompile/bin",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":334,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":356,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Error at cocos2d/cocos/CMakeLists.txt:109 (add_subdirectory):\\n  The source directory\\n\\n    /home/ilia.zarubin/workspace/coconut_run/cocos2d/external\\n\\n  does not contain a CMakeLists.txt file.\\n\\n\",\"title\":\"Error\",\"type\":\"message\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "ERROR",
+    "message": "CMake Error at /home/ilia.zarubin/workspace/coconut_run/cocos2d/cocos/CMakeLists.txt:109 (add_subdirectory):\n  The source directory\n\n    /home/ilia.zarubin/workspace/coconut_run/cocos2d/external\n\n  does not contain a CMakeLists.txt file.\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":377,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":924,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":950,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":974,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Configuring incomplete, errors occurred!\\nSee also \\\"/home/ilia.zarubin/workspace/coconut_run/proj.android/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeOutput.log\\\".\",\"type\":\"message\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Configuring incomplete, errors occurred!\nSee also \"/home/ilia.zarubin/workspace/coconut_run/proj.android/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeOutput.log\".",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"errorMessage\":\"Configuration failed.\",\"inReplyTo\":\"configure\",\"type\":\"error\"}\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "ERROR",
+    "message": "Configuration failed.",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed with problem. Exception: com.android.ide.common.process.ProcessException: Error configuring CMake server (/home/ilia.zarubin/Android/Sdk/cmake/3.10.2.4988404/bin).\r\nCheck for working C compiler: /home/ilia.zarubin/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang\nCheck for working C compiler: /home/ilia.zarubin/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works\nDetecting C compiler ABI info\nDetecting C compiler ABI info - done\nDetecting C compile features\nDetecting C compile features - done\nCheck for working CXX compiler: /home/ilia.zarubin/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++\nCheck for working CXX compiler: /home/ilia.zarubin/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works\nDetecting CXX compiler ABI info\nDetecting CXX compiler ABI info - done\nDetecting CXX compile features\nDetecting CXX compile features - done\nusing toolchain file:/home/ilia.zarubin/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake\nPROJECT_NAME:CoconutRun\nPROJECT_SOURCE_DIR:/home/ilia.zarubin/workspace/coconut_run\nCOCOS2DX_ROOT_PATH:/home/ilia.zarubin/workspace/coconut_run/cocos2d\nCMAKE_MODULE_PATH:/home/ilia.zarubin/workspace/coconut_run/cocos2d/cmake/Modules/\nPROJECT_BINARY_DIR:/home/ilia.zarubin/workspace/coconut_run/proj.android/app/.cxx/cmake/debug/armeabi-v7a\nENGINE_BINARY_PATH:/home/ilia.zarubin/workspace/coconut_run/proj.android/app/.cxx/cmake/debug/armeabi-v7a/engine\nPYTHON_PATH:/usr/bin/python2\nCOCOS_COMMAND_PATH:/home/ilia.zarubin/workspace/android/coconut_run/cocos2d-x/tools/cocos2d-console/bin/cocos\nHOST_SYSTEM:Linux\nCMAKE_GENERATOR: Ninja\nCOCOS2DX_LUAJIT_ROOT:/home/ilia.zarubin/workspace/android/coconut_run/cocos2d-x/tools/cocos2d-console/bin/../plugins/plugin_luacompile/bin\nCMake Error at cocos2d/cocos/CMakeLists.txt:109 (add_subdirectory):\n  The source directory\n\n    /home/ilia.zarubin/workspace/coconut_run/cocos2d/external\n\n  does not contain a CMakeLists.txt file.\n\n\nConfiguring incomplete, errors occurred!\nSee also \"/home/ilia.zarubin/workspace/coconut_run/proj.android/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeOutput.log\".\n",
+    "file": "/home/ilia.zarubin/workspace/coconut_run/CMakeLists.txt",
     "tag": "debug|armeabi-v7a"
   }
 ]

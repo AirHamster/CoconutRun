@@ -1,7 +1,7 @@
 Executable : /home/ilia.zarubin/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
 arguments : 
 -C
-/home/ilia.zarubin/workspace/coconut_run/CoconutRun/proj.android/app/.cxx/cmake/debug/x86
+/home/ilia.zarubin/workspace/coconut_run/proj.android/app/.cxx/cmake/debug/x86
 MyGame
 jvmArgs : 
 
