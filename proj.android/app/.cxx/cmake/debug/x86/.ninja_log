@@ -646,3 +646,9 @@
 193050	193182	1612373022	engine/cocos/platform/libcpp_android_spec.a	ab430b5515ce16fc
 190881	218976	1612373043	lib/libcocos2d.a	92461d596a7ab200
 219083	223380	1612373052	../../../../build/intermediates/cmake/debug/obj/x86/libMyGame.so	19ce62ccd1260077
+536	7417	1612455303	CMakeFiles/MyGame.dir/Classes/HelloWorldScene.cpp.o	c424dc39fb367266
+7417	25391	1612455320	../../../../build/intermediates/cmake/debug/obj/x86/libMyGame.so	19ce62ccd1260077
+320	26529	1612462899	CMakeFiles/MyGame.dir/Classes/HelloWorldScene.cpp.o	c424dc39fb367266
+26618	114712	1612462986	../../../../build/intermediates/cmake/debug/obj/x86/libMyGame.so	19ce62ccd1260077
+628	7181	1612463112	CMakeFiles/MyGame.dir/Classes/HelloWorldScene.cpp.o	c424dc39fb367266
+7181	21483	1612463126	../../../../build/intermediates/cmake/debug/obj/x86/libMyGame.so	19ce62ccd1260077

@@ -194,7 +194,6 @@
       "project": {
         "compilerSettingsCacheFolder": "/home/ilia.zarubin/workspace/coconut_run/proj.android/.cxx",
         "cxxFolder": "/home/ilia.zarubin/workspace/coconut_run/proj.android/.cxx",
-        "ideBuildTargetAbi": "x86",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isNativeCompilerSettingsCacheEnabled": false,
@@ -218,6 +217,8 @@
     "objFolder": "/home/ilia.zarubin/workspace/coconut_run/proj.android/app/build/intermediates/cmake/debug/obj",
     "variantName": "debug",
     "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
       "X86"
     ],
     "prefabDirectory": "/home/ilia.zarubin/workspace/coconut_run/proj.android/app/.cxx/cmake/debug/prefab",
