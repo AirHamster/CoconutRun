@@ -1,22 +1,21 @@
-#include "HelloWorldScene.h"
 #include "MainMenuScene.h"
 
 USING_NS_CC;
 
-Scene* HelloWorld::createScene()
+Scene* MainMenu::createScene()
 {
-    return HelloWorld::create();
+    return MainMenu::create();
 }
 
 // Print useful error message instead of segfaulting when files are not there.
 static void problemLoading(const char* filename)
 {
     printf("Error while loading: %s\n", filename);
-    printf("Depending on how you compiled you might have to add 'Resources/' in front of filenames in HelloWorldScene.cpp\n");
+    printf("Depending on how you compiled you might have to add 'Resources/' in front of filenames in MainMenuScene.cpp\n");
 }
 
 // on "init" you need to initialize your instance
-bool HelloWorld::init()
+bool MainMenu::init()
 {
     //////////////////////////////
     // 1. super init first
@@ -35,7 +34,7 @@ bool HelloWorld::init()
     auto closeItem = MenuItemImage::create(
             "CloseNormal.png",
             "CloseSelected.png",
-            CC_CALLBACK_1(HelloWorld::menuCloseCallback, this));
+            CC_CALLBACK_1(MainMenu::menuCloseCallback, this));
 
     if (closeItem==nullptr ||
             closeItem->getContentSize().width<=0 ||
@@ -59,7 +58,7 @@ bool HelloWorld::init()
     // add a label shows "Hello World"
     // create and initialize a label
 
-    auto label = Label::createWithTTF("Stonks Development", "fonts/Marker Felt.ttf", 24);
+    auto label = Label::createWithTTF("Main Menu", "fonts/Marker Felt.ttf", 24);
     if (label==nullptr) {
         problemLoading("'fonts/Marker Felt.ttf'");
     }
@@ -72,7 +71,7 @@ bool HelloWorld::init()
         this->addChild(label, 1);
     }
 
-    // add "HelloWorld" splash screen"
+    // add "MainMenu" splash screen"
     auto sprite = Sprite::create("HelloWorld.png");
     if (sprite==nullptr) {
         problemLoading("'HelloWorld.png'");
@@ -88,15 +87,11 @@ bool HelloWorld::init()
     return true;
 }
 
-void HelloWorld::menuCloseCallback(Ref* pSender)
+void MainMenu::menuCloseCallback(Ref* pSender)
 {
-    auto director = Director::getInstance();
     //Close the cocos2d-x game scene and quit the application
-    //Director::getInstance()->end();
-    auto scene = MainMenu::createScene();
+    Director::getInstance()->end();
 
-    // run
-    director->runWithScene(scene);
     /*To navigate back to native iOS screen(if present) without quitting the application  ,do not use Director::getInstance()->end() as given above,instead trigger a custom event created in RootViewController.mm as below*/
 
     //EventCustom customEndEvent("game_scene_close_event");
