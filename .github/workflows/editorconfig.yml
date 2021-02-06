@@ -1,0 +1,16 @@
+name: editor-config lint
+on: [push]
+
+jobs:
+  clang-format:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v2
+      - uses: kasperhesthaven/setup-editorconfig-checker@v1
+        env:
+          ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
+        with:
+          version: "2.1.0" # Defaults to latest if not set
+      - run: editorconfig-checker
