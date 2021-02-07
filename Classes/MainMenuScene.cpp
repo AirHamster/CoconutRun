@@ -1,4 +1,8 @@
+#include <android/log.h>
+#include <iostream>
 #include "MainMenuScene.h"
+#include "HelloWorldScene.h"
+#include "ui/CocosGUI.h"
 
 USING_NS_CC;
 
@@ -72,7 +76,7 @@ bool MainMenu::init()
     }
 
     // add "MainMenu" splash screen"
-    auto sprite = Sprite::create("HelloWorld.png");
+    /*auto sprite = Sprite::create("HelloWorld.png");
     if (sprite==nullptr) {
         problemLoading("'HelloWorld.png'");
     }
@@ -84,6 +88,32 @@ bool MainMenu::init()
         // add the sprite as a child to this layer
         this->addChild(sprite, 0);
     }
+     */
+    auto button = ui::Button::create("buttons/play.png", "buttons/play_pushed.png", "buttons/button_play.png");
+
+    //button->setTitleText("Button Text");
+    button->setPosition(Vec2(visibleSize.width/2+origin.x, visibleSize.height/2+origin.y));
+
+    button->addTouchEventListener([&](Ref* sender, ui::Widget::TouchEventType type){
+      switch (type)
+      {
+      case ui::Widget::TouchEventType::BEGAN:
+          //button->
+          break;
+      case ui::Widget::TouchEventType::ENDED: {
+          auto director = Director::getInstance();
+          auto scene = HelloWorld::createScene();
+          // run
+          director->runWithScene(scene);
+      }
+          break;
+      default:
+          break;
+      }
+    });
+
+    this->addChild(button);
+
     return true;
 }
 
