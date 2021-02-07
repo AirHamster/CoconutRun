@@ -5630,6 +5630,16 @@
           "workingDirectoryOrdinal": 0
         },
         {
+          "src": "/home/ilia.zarubin/workspace/coconut_run/Classes/MainMenuScene.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/ilia.zarubin/workspace/coconut_run/Classes/GameWorldScene.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
           "src": "/home/ilia.zarubin/workspace/coconut_run/proj.android/app/jni/hellocpp/main.cpp",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
@@ -5642,6 +5652,14 @@
         },
         {
           "header": "/home/ilia.zarubin/workspace/coconut_run/Classes/HelloWorldScene.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/ilia.zarubin/workspace/coconut_run/Classes/MainMenuScene.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/ilia.zarubin/workspace/coconut_run/Classes/GameWorldScene.h",
           "workingDirectoryOrdinal": 0
         }
       ],

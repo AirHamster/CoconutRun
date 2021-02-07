@@ -1,3 +1,4 @@
 ninja: Entering directory `/home/ilia.zarubin/workspace/coconut_run/proj.android/app/.cxx/cmake/debug/x86'
-[1/2] Building CXX object CMakeFiles/MyGame.dir/Classes/HelloWorldScene.cpp.o
-[2/2] Linking CXX shared library ../../../../build/intermediates/cmake/debug/obj/x86/libMyGame.so
+[1/3] Building CXX object CMakeFiles/MyGame.dir/Classes/GameWorldScene.cpp.o
+[2/3] Building CXX object CMakeFiles/MyGame.dir/Classes/MainMenuScene.cpp.o
+[3/3] Linking CXX shared library ../../../../build/intermediates/cmake/debug/obj/x86/libMyGame.so
