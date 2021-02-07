@@ -1,25 +1,25 @@
 #include <android/log.h>
 #include <iostream>
-#include "MainMenuScene.h"
 #include "GameWorldScene.h"
+#include "HelloWorldScene.h"
 #include "ui/CocosGUI.h"
 
 USING_NS_CC;
 
-Scene* MainMenu::createScene()
+Scene* GameWorld::createScene()
 {
-    return MainMenu::create();
+    return GameWorld::create();
 }
 
 // Print useful error message instead of segfaulting when files are not there.
 static void problemLoading(const char* filename)
 {
     printf("Error while loading: %s\n", filename);
-    printf("Depending on how you compiled you might have to add 'Resources/' in front of filenames in MainMenuScene.cpp\n");
+    printf("Depending on how you compiled you might have to add 'Resources/' in front of filenames in GameWorldScene.cpp\n");
 }
 
 // on "init" you need to initialize your instance
-bool MainMenu::init()
+bool GameWorld::init()
 {
     //////////////////////////////
     // 1. super init first
@@ -38,7 +38,7 @@ bool MainMenu::init()
     auto closeItem = MenuItemImage::create(
             "CloseNormal.png",
             "CloseSelected.png",
-            CC_CALLBACK_1(MainMenu::menuCloseCallback, this));
+            CC_CALLBACK_1(GameWorld::menuCloseCallback, this));
 
     if (closeItem==nullptr ||
             closeItem->getContentSize().width<=0 ||
@@ -62,7 +62,7 @@ bool MainMenu::init()
     // add a label shows "Hello World"
     // create and initialize a label
 
-    auto label = Label::createWithTTF("Main Menu", "fonts/Marker Felt.ttf", 24);
+    auto label = Label::createWithTTF("Game World", "fonts/Marker Felt.ttf", 24);
     if (label==nullptr) {
         problemLoading("'fonts/Marker Felt.ttf'");
     }
@@ -75,7 +75,7 @@ bool MainMenu::init()
         this->addChild(label, 1);
     }
 
-    // add "MainMenu" splash screen"
+    // add "GameWorld" splash screen"
     /*auto sprite = Sprite::create("HelloWorld.png");
     if (sprite==nullptr) {
         problemLoading("'HelloWorld.png'");
@@ -89,35 +89,11 @@ bool MainMenu::init()
         this->addChild(sprite, 0);
     }
      */
-    auto button = ui::Button::create("buttons/play.png", "buttons/play_pushed.png", "buttons/button_play.png");
-
-    //button->setTitleText("Button Text");
-    button->setPosition(Vec2(visibleSize.width/2+origin.x, visibleSize.height/2+origin.y));
-
-    button->addTouchEventListener([&](Ref* sender, ui::Widget::TouchEventType type){
-      switch (type)
-      {
-      case ui::Widget::TouchEventType::BEGAN:
-          //button->
-          break;
-      case ui::Widget::TouchEventType::ENDED: {
-          auto director = Director::getInstance();
-          auto scene = GameWorld::createScene();
-          // run
-          director->runWithScene(scene);
-      }
-          break;
-      default:
-          break;
-      }
-    });
-
-    this->addChild(button);
 
     return true;
 }
 
-void MainMenu::menuCloseCallback(Ref* pSender)
+void GameWorld::menuCloseCallback(Ref* pSender)
 {
     //Close the cocos2d-x game scene and quit the application
     Director::getInstance()->end();
