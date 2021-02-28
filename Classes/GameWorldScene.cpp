@@ -1,4 +1,6 @@
-#include <android/log.h>
+#if not defined (__APPLE__)
+    #include <android/log.h>
+#endif
 #include <iostream>
 #include "GameWorldScene.h"
 #include "HelloWorldScene.h"

@@ -103,7 +103,7 @@ elseif(APPLE)
              proj.ios_mac/ios/main.m
              proj.ios_mac/ios/AppController.mm
              proj.ios_mac/ios/RootViewController.mm
-             proj.ios_mac/ios/Prefix.pch
+             #proj.ios_mac/ios/Prefix.pch
              ${APP_UI_RES}
              )
     elseif(MACOSX)
@@ -113,7 +113,7 @@ elseif(APPLE)
             )
         list(APPEND GAME_SOURCE
              proj.ios_mac/mac/main.cpp
-             proj.ios_mac/mac/Prefix.pch
+             #proj.ios_mac/mac/Prefix.pch
              ${APP_UI_RES}
              )
     endif()
