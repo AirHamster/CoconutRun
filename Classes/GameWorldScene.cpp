@@ -6,6 +6,8 @@
 
 USING_NS_CC;
 
+#define SCALE_RATIO 16.0
+
 Scene* GameWorld::createScene()
 {
     return GameWorld::create();
@@ -75,20 +77,11 @@ bool GameWorld::init()
         this->addChild(label, 1);
     }
 
-    // add "GameWorld" splash screen"
-    /*auto sprite = Sprite::create("HelloWorld.png");
-    if (sprite==nullptr) {
-        problemLoading("'HelloWorld.png'");
-    }
-    else {
-        // position the sprite on the center of the screen
-        sprite->setPosition(
-                Vec2(visibleSize.width/2+origin.x, visibleSize.height/2+origin.y));
-        sprite->setScale(2);
-        // add the sprite as a child to this layer
-        this->addChild(sprite, 0);
-    }
-     */
+    b2Vec2 gravity = b2Vec2(0.0f, -10.0f);
+    world = new b2World(gravity);
+    track.init(world);
+    initCoconuts();
+    scheduleUpdate();
 
     return true;
 }
@@ -104,4 +97,34 @@ void GameWorld::menuCloseCallback(Ref* pSender)
     //_eventDispatcher->dispatchEvent(&customEndEvent);
 
 
+}
+
+void GameWorld::initCoconuts()
+{
+    for (auto& coc : coconut_array)
+    {
+        this->addChild(coc.getSprite());
+        coc.init(world);
+    }
+}
+
+//Simulate Physics
+void GameWorld::update(float dt)
+{
+    int positionIterations = 10;
+    int velocityIterations = 10;
+
+    deltaTime = dt;
+    world->Step(dt, velocityIterations, positionIterations);
+
+    for (b2Body* body = world->GetBodyList(); body!=NULL; body = body->GetNext())
+        if (body->GetUserData()) {
+            Sprite* sprite = (Sprite*) body->GetUserData();
+            sprite->setPosition(
+                    Vec2(body->GetPosition().x*SCALE_RATIO, body->GetPosition().y*SCALE_RATIO));
+            sprite->setRotation(-1*CC_RADIANS_TO_DEGREES(body->GetAngle()));
+            CCLOG("UPDATE");
+        }
+    world->ClearForces();
+    world->DrawDebugData();
 }
