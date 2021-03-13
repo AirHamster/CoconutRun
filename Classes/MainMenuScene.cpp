@@ -89,7 +89,7 @@ bool MainMenu::init()
         this->addChild(sprite, 0);
     }
      */
-    auto button = ui::Button::create("buttons/play.png", "buttons/play_pushed.png", "buttons/button_play.png");
+    auto button = ui::Button::create("buttons/play.png", "buttons/play_pushed.png", "buttons/play.png");
 
     //button->setTitleText("Button Text");
     button->setPosition(Vec2(visibleSize.width/2+origin.x, visibleSize.height/2+origin.y));
