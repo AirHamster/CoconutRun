@@ -54,13 +54,17 @@ if(APPLE OR WINDOWS)
     cocos_mark_multi_resources(common_res_files RES_TO "Resources" FOLDERS ${GAME_RES_FOLDER})
 endif()
 
+set(include_dirs Classes)
 # add cross-platforms source files and header files 
 list(APPEND GAME_SOURCE
      Classes/AppDelegate.cpp
      Classes/HelloWorldScene.cpp
      Classes/MainMenuScene.cpp
      Classes/GameWorldScene.cpp
+     Classes/objects/coconut.cpp
+     Classes/objects/track.cpp
      )
+
 list(APPEND GAME_HEADER
      Classes/AppDelegate.h
      Classes/HelloWorldScene.h
