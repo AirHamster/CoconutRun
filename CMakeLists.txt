@@ -63,6 +63,7 @@ list(APPEND GAME_SOURCE
      Classes/GameWorldScene.cpp
      Classes/objects/coconut.cpp
      Classes/objects/track.cpp
+     Classes/objects/cart_parts.cpp
      )
 
 list(APPEND GAME_HEADER
