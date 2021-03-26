@@ -1,5 +1,7 @@
 #include <android/log.h>
 #include <iostream>
+#include <math.h>
+#include <objects/cart_parts.h>
 #include "GameWorldScene.h"
 #include "HelloWorldScene.h"
 #include "ui/CocosGUI.h"
@@ -77,6 +79,11 @@ bool GameWorld::init()
         this->addChild(label, 1);
     }
 
+    //this->addChild(rectNode);
+
+    CartLongeron one;
+    one.init(this);
+    one.update_coordinates(100, 200, 200, 100);
     b2Vec2 gravity = b2Vec2(0.0f, -10.0f);
     world = new b2World(gravity);
     track.init(world);
@@ -123,7 +130,7 @@ void GameWorld::update(float dt)
             sprite->setPosition(
                     Vec2(body->GetPosition().x*SCALE_RATIO, body->GetPosition().y*SCALE_RATIO));
             sprite->setRotation(-1*CC_RADIANS_TO_DEGREES(body->GetAngle()));
-            CCLOG("UPDATE");
+
         }
     world->ClearForces();
     world->DrawDebugData();
